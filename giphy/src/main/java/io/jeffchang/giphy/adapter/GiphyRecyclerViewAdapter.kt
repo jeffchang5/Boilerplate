@@ -7,9 +7,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import io.jeffchang.challenge.R
 import io.jeffchang.giphy.data.model.SearchItem
 import kotlinx.android.extensions.LayoutContainer
+import kotlinx.android.synthetic.main.giphy_item.*
 
 @SuppressLint("SimpleDateFormat")
 class GiphyRecyclerViewAdapter : ListAdapter<
@@ -39,6 +41,10 @@ class GiphyRecyclerViewAdapter : ListAdapter<
 
         fun bind(searchItem: SearchItem) {
             itemView.apply {
+                Glide.with(context)
+                        .load(searchItem.images.original.url)
+                        .into(review_item_profile_image_view)
+                review_item_movie_title_textview.text = searchItem.title
 //                Picasso
 //                        .get()
 //                        .load(searchResult.multimedia.src)

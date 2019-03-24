@@ -8,7 +8,7 @@ data class SearchItem(
 	val importDatetime: String? = null,
 
 	@Json(name="images")
-	val images: Images? = null,
+	val images: Images,
 
 	@Json(name="embed_url")
 	val embedUrl: String? = null,
@@ -35,7 +35,7 @@ data class SearchItem(
 	val bitlyGifUrl: String? = null,
 
 	@Json(name="title")
-	val title: String? = null,
+	val title: String,
 
 	@Json(name="_score")
 	val score: Double? = null,

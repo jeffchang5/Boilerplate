@@ -10,7 +10,7 @@ data class Images(
 	val preview: Preview? = null,
 
 	@Json(name="original")
-	val original: Original? = null,
+	val original: Original,
 
 	@Json(name="preview_gif")
 	val previewGif: PreviewGif? = null,

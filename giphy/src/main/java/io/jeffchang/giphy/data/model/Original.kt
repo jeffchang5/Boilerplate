@@ -28,7 +28,7 @@ data class Original(
 	val webpSize: String? = null,
 
 	@Json(name="url")
-	val url: String? = null,
+	val url: String,
 
 	@Json(name="hash")
 	val hash: String? = null,

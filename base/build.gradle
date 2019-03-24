@@ -42,7 +42,7 @@ dependencies {
     kapt "com.google.dagger:dagger-android-processor:$rootProject.dagger_version"
 
     // View
-    api "com.squareup.picasso:picasso:$rootProject.picasso_version"
+    api "com.github.bumptech.glide:glide:$rootProject.glide_version"
     api 'androidx.cardview:cardview:1.0.0'
     implementation 'com.airbnb.android:epoxy:3.2.0'
     // Add the annotation processor if you are using Epoxy's annotations (recommended)
