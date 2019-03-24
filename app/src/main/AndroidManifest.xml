@@ -15,8 +15,8 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="io.jeffchang.challenge.MainActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:name="io.jeffchang.giphy.GiphySearchActivity"
+            android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
