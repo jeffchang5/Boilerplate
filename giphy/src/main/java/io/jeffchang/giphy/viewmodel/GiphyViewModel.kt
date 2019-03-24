@@ -30,7 +30,7 @@ class GiphyViewModel @Inject constructor(
 
     val searchResult: LiveData<List<SearchItem>> get() = _searchItems
 
-    fun getReviews(query: String) {
+    fun getSearchItems(query: String) {
         _textDataLiveData.value = TextData(R.string.loading)
         giphyInteractor.getSearchItems(query)
                 .subscribeOn(Schedulers.io())

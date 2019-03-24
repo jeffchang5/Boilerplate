@@ -37,8 +37,6 @@ class GiphySearchFragment : DaggerFragment() {
         super.onViewCreated(view, savedInstanceState)
         subscribeUi()
         initRecyclerView()
-
-        giphyViewModel.getReviews("cow")
     }
 
     private fun initRecyclerView() {

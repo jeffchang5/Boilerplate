@@ -33,6 +33,9 @@ dependencies {
     api 'com.squareup.okhttp3:logging-interceptor:3.10.0'
     api 'com.facebook.stetho:stetho-okhttp3:1.5.0'
 
+    // Lifecycle VM
+    api "androidx.lifecycle:lifecycle-extensions:$rootProject.lifecycle_version"
+
     api "com.google.dagger:dagger:$rootProject.dagger_version"
 
     // Latest version of Dagger (2.17) doesn't support Android X.

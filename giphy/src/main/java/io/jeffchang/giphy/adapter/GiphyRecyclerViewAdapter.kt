@@ -43,8 +43,8 @@ class GiphyRecyclerViewAdapter : ListAdapter<
             itemView.apply {
                 Glide.with(context)
                         .load(searchItem.images.original.url)
-                        .into(review_item_profile_image_view)
-                review_item_movie_title_textview.text = searchItem.title
+                        .into(giphy_item_profile_image_view)
+                giphy_item_gif_title_textview.text = searchItem.title
 //                Picasso
 //                        .get()
 //                        .load(searchResult.multimedia.src)
