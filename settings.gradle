@@ -1,1 +1,1 @@
-include ':app', ':base', ':review'
+include ':app', ':base', ':giphy'

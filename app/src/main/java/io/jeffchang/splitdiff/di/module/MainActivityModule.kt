@@ -2,14 +2,14 @@ package io.jeffchang.splitdiff.di.module
 
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
-import io.jeffchang.review.ReviewModule
+import io.jeffchang.giphy.GiphyModule
 import io.jeffchang.splitdiff.MainActivity
 
 @Module
 abstract class MainActivityModule {
 
     @ContributesAndroidInjector(modules = [
-        ReviewModule::class
+        GiphyModule::class
     ])
     abstract fun contributeMainActivity(): MainActivity
 
