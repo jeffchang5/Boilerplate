@@ -9,13 +9,11 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import dagger.android.support.DaggerFragment
 import io.jeffchang.base.common.GridItemDecoration
+import io.jeffchang.challenge.R
 import io.jeffchang.giphy.adapter.GiphyRecyclerViewAdapter
 import io.jeffchang.giphy.viewmodel.GiphyViewModel
 import kotlinx.android.synthetic.main.fragment_giphy_search.*
 import javax.inject.Inject
-import android.content.Intent
-import android.net.Uri
-import io.jeffchang.challenge.R
 
 
 class GiphySearchFragment : DaggerFragment() {
@@ -60,12 +58,6 @@ class GiphySearchFragment : DaggerFragment() {
         giphyViewModel.searchResult.observe(this, Observer {
             searchItemRecyclerViewAdapter.submitList(it)
         })
-    }
-
-    // Directs to either the browser or New York Times app to read the article.
-    private fun startNewYorkTimesArticle(articleUrl: String) {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(articleUrl))
-        startActivity(intent)
     }
 
 }

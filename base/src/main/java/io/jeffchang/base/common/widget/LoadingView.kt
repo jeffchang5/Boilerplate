@@ -29,6 +29,7 @@ class LoadingView @JvmOverloads constructor(
 
     init {
         inflate(context, R.layout.view_loading_view, this)
+        textData = TextData(R.string.search)
     }
 
     // Using animate API to make visibility changes smoother.
