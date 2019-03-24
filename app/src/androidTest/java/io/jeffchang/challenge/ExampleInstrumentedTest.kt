@@ -1,4 +1,4 @@
-package io.jeffchang.splitdiff
+package io.jeffchang.challenge
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4

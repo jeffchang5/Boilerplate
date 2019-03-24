@@ -1,4 +1,4 @@
-package io.jeffchang.splitdiff.di.module
+package io.jeffchang.challenge.di.module
 
 import androidx.lifecycle.ViewModelProvider
 import dagger.Binds

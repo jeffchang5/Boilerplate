@@ -1,4 +1,4 @@
-package io.jeffchang.splitdiff.di.component
+package io.jeffchang.challenge.di.component
 
 import android.app.Application
 import dagger.BindsInstance
@@ -6,10 +6,10 @@ import dagger.Component
 import dagger.android.AndroidInjector
 import dagger.android.support.AndroidSupportInjectionModule
 import dagger.android.support.DaggerApplication
-import io.jeffchang.splitdiff.di.module.MainActivityModule
-import io.jeffchang.splitdiff.ChallengeApplication
-import io.jeffchang.splitdiff.di.module.AppModule
-import io.jeffchang.splitdiff.di.module.NetworkModule
+import io.jeffchang.challenge.di.module.MainActivityModule
+import io.jeffchang.challenge.ChallengeApplication
+import io.jeffchang.challenge.di.module.AppModule
+import io.jeffchang.challenge.di.module.NetworkModule
 import javax.inject.Singleton
 
 @Singleton

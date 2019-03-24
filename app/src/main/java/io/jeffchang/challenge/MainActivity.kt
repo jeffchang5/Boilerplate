@@ -1,4 +1,4 @@
-package io.jeffchang.splitdiff
+package io.jeffchang.challenge
 
 import android.os.Bundle
 import androidx.navigation.Navigation.findNavController

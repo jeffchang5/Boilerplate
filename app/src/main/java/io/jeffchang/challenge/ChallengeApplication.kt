@@ -1,11 +1,11 @@
-package io.jeffchang.splitdiff
+package io.jeffchang.challenge
 
 import dagger.android.AndroidInjector
 import dagger.android.HasActivityInjector
 import dagger.android.support.DaggerApplication
 import io.jeffchang.base.common.Constants
-import io.jeffchang.splitdiff.di.component.DaggerAppComponent
-import io.jeffchang.splitdiff.di.module.NetworkModule
+import io.jeffchang.challenge.di.component.DaggerAppComponent
+import io.jeffchang.challenge.di.module.NetworkModule
 import timber.log.Timber
 
 class ChallengeApplication: DaggerApplication(), HasActivityInjector {

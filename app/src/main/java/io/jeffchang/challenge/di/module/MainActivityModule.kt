@@ -1,9 +1,9 @@
-package io.jeffchang.splitdiff.di.module
+package io.jeffchang.challenge.di.module
 
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 import io.jeffchang.giphy.GiphyModule
-import io.jeffchang.splitdiff.MainActivity
+import io.jeffchang.challenge.MainActivity
 
 @Module
 abstract class MainActivityModule {

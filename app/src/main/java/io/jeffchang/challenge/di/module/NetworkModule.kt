@@ -1,10 +1,10 @@
-package io.jeffchang.splitdiff.di.module
+package io.jeffchang.challenge.di.module
 
 import android.app.Application
 import com.facebook.stetho.okhttp3.StethoInterceptor
 import dagger.Module
 import dagger.Provides
-import io.jeffchang.splitdiff.BuildConfig
+import io.jeffchang.challenge.BuildConfig
 import okhttp3.Cache
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

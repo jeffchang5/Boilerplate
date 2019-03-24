@@ -1,4 +1,4 @@
-package io.jeffchang.splitdiff
+package io.jeffchang.challenge
 
 import org.junit.Test
 
