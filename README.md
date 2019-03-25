@@ -1,6 +1,6 @@
-# OpenTable Challenge
+# Evite Challenge
 
-This project is an implementation of the specs required by the OpenTable challenge criteria. The app requires Android 5.1 and above.
+This project is an implementation of the specs required by the Evite challenge criteria. The app requires Android 5.1 and above.
 
 ### Getting Started
 
@@ -23,36 +23,20 @@ This project is an implementation of the specs required by the OpenTable challen
 
 ### Features
 
-* Displays a list of movie reviews from NYT movie reviews API
-* Displays movie review headline, title, byline, multimedia,  and publication date.
+* Displays a list of movie reviews from Giphy Search API
+* Displays gifs based on inputs from SearchView
 * Support phone and tablet device definitions
 
 ### TODOs
-
 * The scroll position can be saved when rotated.
 * Add testing to ensure integrity of being handle different edge cases.
+* The UX experience with search leaves a lot for improvement.
 
 ### Third Party Libraries
-
-* Picasso is used to load and cache images from the network.
+* Glide is used to load and cache gifs from the network.
 * Architecture Components LiveModel is used to have a lifecycle aware (and safe) place to hold data as well as convenient for writing a CLEAN architecture.
 * RxJava 2 is used to provide a reactive stream method of presenting of data. It is easier to handle and manipulate different transactions.
 * Retrofit is a great network abstraction library to convert JSON to POJO classes.
 * Dagger 2 is used to reduce boilerplate and create testable services and components.
 * Timber for more powerful logging. 
-
-### Screenshots
-<table>
-    <tr>
-        <td><img style="width: 350px: height:auto; margin: 0 50px" src="/screenshots/phone-horizontal.png"></img></td>
-        <td><img src="/screenshots/phone-vertical.png"></img></td>
-        <td><img src="/screenshots/tablet-vertical.png"></img></td>
-    </tr>
-        <tr>
-        <td align="center"><b>Phone Horizontal<b></td>
-        <td align="center"><b>Phone Vertical</b></img></td>
-        <td align="center"><b>Tablet Vertical</b></img></td>
-    </tr>
-</table>
-
 
